@@ -5,14 +5,14 @@ import Testing from "./js/Testing.js"
 import Reopened from "./js/Reopened.js"
 import Done from "./js/Done.js"
 
-const API = `https://62bad550573ca8f8328cae02.mockapi.io`;
+export const API = `https://62bad550573ca8f8328cae02.mockapi.io`;
 
-const participantsSelect = document.querySelector(`#taskParticipants`),
+export const participantsSelect = document.querySelector(`#taskParticipants`),
     taskForm = document.querySelector(`#createTask`),
     taskTitleInput = document.querySelector(`#taskTitle`),
     tasksTable = document.querySelector(`#tasksTable`);
 
-const controller = async (url, method=`GET`, obj) => {
+export const controller = async (url, method=`GET`, obj) => {
     let options = {
         method,
         headers:{

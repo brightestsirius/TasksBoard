@@ -1,4 +1,6 @@
 import Task from "./Task.js"
+import ToDo from "./ToDo.js"
+import {API, controller} from "./../script.js";
 
 export default class Reopened extends Task{
     constructor(task){

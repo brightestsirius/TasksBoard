@@ -1,4 +1,6 @@
-import Task from "./Task.js"
+import Task from "./Task.js";
+import InProgress from "./InProgress.js";
+import {API, controller} from "./../script.js";
 
 export default class ToDo extends Task{
     constructor(task){

@@ -1,4 +1,7 @@
 import Task from "./Task.js"
+import Reopened from "./Reopened.js"
+import Done from "./Done.js"
+import {API, controller, taskForm, participantsSelect} from "./../script.js";
 
 export default class Testing extends Task{
     constructor(task){

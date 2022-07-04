@@ -1,4 +1,6 @@
 import Task from "./Task.js"
+import NeedTesting from "./NeedTesting.js"
+import {API, controller} from "./../script.js";
 
 export default class InProgress extends Task{
     constructor(task){
